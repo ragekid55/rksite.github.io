@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<link rel="stylesheet" href="../styles/feedback.css" >
+<title>Ragekid55</title>
+
+</head>
+<body>
+	<main class="main-container">
+		
+		<div class="content-container">
+			<section class="upper-container">
+				<h1 class="logo">
+					ragekid55 
+				</h1>
+				<div class="fucking-container">
+				  	<img class="fcknghell" src="../images/fcknghell.png" alt="fucking hell image">
+				</div>
+			</section>
+			<section class="mid-container">
+				<div class="links-container">
+					<ul class="links">
+                        <li class="option"><a class="option-link" href="../index.html">Главная</a></li>
+                        
+                        <li class="option"><a class="option-link" href="artarchive0.html">Архив</a></li>
+                        
+                        <li class="option"><a class="option-link" href="devlogs.html">Девлог</a></li>
+                        <li class="option"><a class="option-link" href="feedback.html">Обратная связь</a></li>
+					</ul>
+				</div>
+				<div class="intro">Форма для обратной связи.</div>
+			</section>
+			<section class="feedback-container">
+                <form action="https://formspree.io/f/xppqrkaz" method="POST">
+                    <div class="feedback-form">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="feedback-form">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="feedback-message">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="feedback-sendbtn">
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+			</section>
+		</div>	
+	</main>
+</body>
+</html>
